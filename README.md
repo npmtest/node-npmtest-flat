@@ -1,6 +1,6 @@
 # npmtest-flat
 
-#### test coverage for  [flat (v2.0.1)](https://github.com/hughsk/flat)  [![npm package](https://img.shields.io/npm/v/npmtest-flat.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-flat) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-flat.svg)](https://travis-ci.org/npmtest/node-npmtest-flat)
+#### basic test coverage for  [flat (v2.0.1)](https://github.com/hughsk/flat)  [![npm package](https://img.shields.io/npm/v/npmtest-flat.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-flat) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-flat.svg)](https://travis-ci.org/npmtest/node-npmtest-flat)
 
 #### Take a nested Javascript object and flatten it, or unflatten an object with delimited keys
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-flat/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-flat/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-flat/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-flat/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-flat/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-flat/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-flat/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-flat/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-flat/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-flat/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-flat/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-flat/build/coverage.html/index.html)
 
@@ -86,7 +86,8 @@
     "scripts": {
         "test": "mocha -u tdd --reporter spec"
     },
-    "version": "2.0.1"
+    "version": "2.0.1",
+    "bin": {}
 }
 ```
 
